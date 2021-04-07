@@ -1,38 +1,208 @@
-.App {
+body {
+  background-color: rgb(31, 36, 48);
+  color: white;
+  margin: 0 auto;
+  width: 1200px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  background-color: rgb(209, 13, 13);
+  border-style: none;
   color: white;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  width: 300px;
+  height: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-pokemon {
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
+  text-transform: capitalize;
+  margin-top: 50px;
+
+}
+
+.card-pokemon h2 {
+  font-size: 40px;
+}
+
+.normal {
+  background-color: rgb(207, 207, 207);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.fighting {
+  background-color: rgb(58, 52, 46);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.flying {
+  background-color: rgb(153, 105, 60);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.poison {
+  background-color: rgb(95, 54, 105);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.ground {
+  background-color: rgb(218, 207, 62);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.rock {
+  background-color: rgb(170, 170, 170);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.bug {
+  background-color: rgb(115, 223, 105);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.ghost {
+  background-color: rgb(59, 63, 102);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.steel {
+  background-color: rgb(236, 236, 236);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.fire {
+  background-color: rgb(255, 30, 0);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.water {
+  background-color: rgb(49, 214, 255);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.grass {
+  background-color: rgb(37, 177, 2);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.electric {
+  background-color: rgb(248, 248, 31);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.psychic {
+  background-color: rgb(243, 60, 188);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.ice {
+  background-color: rgb(100, 228, 245);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.dragon {
+  background-color: rgb(112, 72, 224);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.dark {
+  background-color: rgb(39, 37, 34);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.fairy {
+  background-color: rgb(241, 116, 204);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.unknown {
+  background-color: rgb(32, 31, 31);
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  padding: 20px 30px;
+  border-radius: 10px;
 }
